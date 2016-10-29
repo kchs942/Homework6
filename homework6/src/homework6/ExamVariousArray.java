@@ -7,13 +7,13 @@ public class ExamVariousArray {
 		int number;
 		Scanner s=new Scanner(System.in);
 	    do{
-	    	System.out.println("1. µÎ¹øÂ°·Î Å« ¼ö Ã£±â");
-	    	System.out.println("2. ½É»ç Á¡¼ö °è»ê");
-	    	System.out.println("3. ÇĞ»ı ÃÑÁ¡,Æò±Õ°ª ±¸ÇÏ±â");
-	    	System.out.println("4. 5Ãş ¾ÆÆÄÆ®ÀÇ °ÅÁÖÀÚ ¼ıÀÚ ±¸ÇÏ±â");
-	    	System.out.println("5. °ãÄ¡Áö ¾Ê´Â ¼ıÀÚ 10°³ ÀÔ·Â¹Ş±â");
-	    	System.out.println("6. °ãÄ¡Áö ¾Ê´Â ¼ıÀÚ 10°³ ÀÔ·Â¹Ş±â");
-	    	System.out.println("¿øÇÏ´Â ¸Ş´º´Â>>");
+	    	System.out.println("1. ë‘ë²ˆì§¸ë¡œ í°ìˆ˜ ì°¾ê¸°");
+	    	System.out.println("2. ì‹¬ì‚¬ ì ìˆ˜ ê³„ì‚°");
+	    	System.out.println("3. í•™ìƒ ì´ì , í‰ê· ê°’êµ¬í•˜ê¸°");
+	    	System.out.println("4. 5ì¸µ ì•„íŒŒíŠ¸ì˜ ê±°ì£¼ì ìˆ«ì êµ¬í•˜ê¸°");
+	    	System.out.println("5. ê²¹ì¹˜ì§€ ì•ŠëŠ” ìˆ«ì 10ê°œ ì…ë ¥ë°›ê¸°");
+	    	System.out.println("6. ì¢…ë£Œí•˜ê¸°");
+	    	System.out.println("ì›í•˜ëŠ” ë©”ë‰´ëŠ”>>");
 	    	number=s.nextInt();
 	    	
 	    		if(number==1)
@@ -35,7 +35,7 @@ public class ExamVariousArray {
 	   	    	
 	    }
 	    while(number!=6); 
-	    System.out.print("Á¾·áÇÏ¼Ì½À´Ï´Ù.");
+	    System.out.print("ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	   
 
 	}
